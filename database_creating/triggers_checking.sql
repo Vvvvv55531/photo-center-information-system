@@ -1,4 +1,3 @@
-
 SHOW TRIGGERS FROM photo_center;
 
 -- apply_discount_for_large_orders
@@ -30,4 +29,3 @@ SELECT * FROM orders;
 -- prevent_urgent_orders_in_kiosk
 INSERT INTO orders (id_branch, id_employee, id_client, id_product, id_format_type, id_paper_type, id_payment_type, order_status, order_place, order_type, order_date, completion_date, number_photos, discount, price) VALUES
 (1, 1, 1, 1, 1, 2, 1, "Завершен", "Киоск", "Срочный", "2025-04-20 10:00:00", "2025-04-22 12:00:00", 5, 0.05, 500.00);
-
